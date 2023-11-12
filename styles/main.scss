@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.blog-view {
+  //Links
+  a {
+    color: blue;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  pre {
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+}
